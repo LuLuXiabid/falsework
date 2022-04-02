@@ -30,6 +30,7 @@
         <lombok.version>1.18.4</lombok.version>
         <junit5-bom.version>5.7.0</junit5-bom.version>
         <druid.version>1.1.9</druid.version>
+        <flyway.version>5.2.4</flyway.version>
     </properties>
 
 
@@ -112,6 +113,12 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+        <!--引入flyway-->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>${flyway.version}</version>
         </dependency>
     </dependencies>
 

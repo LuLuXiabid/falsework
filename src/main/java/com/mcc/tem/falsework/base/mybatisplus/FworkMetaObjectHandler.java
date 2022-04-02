@@ -26,6 +26,7 @@ public class FworkMetaObjectHandler implements MetaObjectHandler{
         log.info("start insert fill ....");
         this.strictInsertFill(metaObject, "createTime", Date.class, new Date());
         this.strictUpdateFill(metaObject, "updateTime", Date.class, new Date());
+        log.info("第一次提交");
     }
 
     @Override
