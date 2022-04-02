@@ -28,6 +28,7 @@ public class FworkMetaObjectHandler implements MetaObjectHandler{
         this.strictUpdateFill(metaObject, "updateTime", Date.class, new Date());
         log.info("第一次提交");
         log.info("第ER次提交");
+        log.info("第三次提交");
     }
 
     @Override
